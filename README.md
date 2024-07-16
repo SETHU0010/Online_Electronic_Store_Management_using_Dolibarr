@@ -1,40 +1,53 @@
-# Online_Electronic_Store_Management_using_Dolibarr
-Online-Electronic-Store-Management-System/
-│
-├── .github/
-│   └── workflows/
-│       └── ci.yml                # GitHub Actions workflow for CI/CD
-│
-├── docs/
-│   ├── Abstract.md              # Project abstract
-│   ├── Project_Description.md  # Project description
-│   ├── Literature_Survey.md    # Literature survey
-│   ├── Innovation.md           # Innovation
-│   ├── Background_Study.md     # Background study
-│   ├── Problem_Statement.md    # Problem statement
-│   ├── Importance.md           # Importance
-│   └── Proposed_System_Overview.md # Proposed system overview
-│
-├── src/
-│   ├── config/
-│   │   └── config.py           # Configuration files for Dolibarr
-│   ├── data/
-│   │   └── data_loader.py      # Scripts for data loading and preparation
-│   ├── main/
-│   │   ├── sales_management.py # Sales management functions
-│   │   ├── inventory_management.py # Inventory management functions
-│   │   ├── reporting.py        # Reporting functions
-│   │   └── customer_management.py # Customer management functions
-│   └── utils/
-│       ├── helpers.py          # Helper functions
-│       └── logger.py           # Logging utilities
-│
-├── tests/
-│   ├── test_sales_management.py # Unit tests for sales management
-│   ├── test_inventory_management.py # Unit tests for inventory management
-│   ├── test_reporting.py        # Unit tests for reporting
-│   └── test_customer_management.py # Unit tests for customer management
-│
-├── .gitignore                    # Git ignore file
-├── README.md                     # Project README file
-└── requirements.txt             # Project dependencies
+Online Electronic Store Management System Using Dolibarr
+Abstract
+Purpose: Streamline operations of electronic equipment shops.
+
+Tool Used: Dolibarr (Open-source ERP and CRM tool).
+
+Features:
+
+Sales Management: Handle orders, customer relations.
+Inventory Management: Track stock levels, manage products.
+Reporting: Generate sales, stock, and financial reports.
+Automation: Simplifies daily business tasks.
+Project Description
+Tool: Dolibarr Cloud CRM.
+
+Functions:
+
+CRM / Sales Management: Manage customers, sales opportunities.
+E-Commerce: Set up and manage online store.
+Product Management: Track inventory, manage products.
+Finance: Invoicing, accounting.
+Productivity: Improve efficiency and organizational productivity.
+Marketing: Campaigns, promotions.
+Integration: Connect with other systems and tools.
+Literature Survey
+ERP Systems: Integrated software solutions for managing business processes.
+CRM Tools: Manage customer interactions and data.
+E-Commerce Platforms: Online systems for buying and selling products.
+Inventory Management: Techniques for tracking product stock and orders.
+Innovation
+User-Friendly Interface: Simplifies store management tasks.
+Automation: Reduces manual processes in sales and inventory.
+Integrated System: Combines CRM, e-commerce, and ERP functions.
+Background Study
+ERP and CRM Importance: Essential for efficient business operations.
+Dolibarr Capabilities: Provides comprehensive tools for business management.
+Market Need: Growing demand for digital solutions in retail management.
+Problem Statement
+Challenges: Inefficiency in managing sales, inventory, and customer relationships.
+Solution: Implement Dolibarr for streamlined operations and improved efficiency.
+Importance
+Efficiency: Automates tasks, reducing manual effort.
+Accuracy: Enhances data accuracy in inventory and sales.
+Scalability: Supports business growth and expansion.
+Proposed System Overview
+Goal: To provide a digital solution for managing electronic store operations.
+
+Components:
+
+Sales Management: Process orders, track sales.
+Inventory Management: Manage product stock.
+Reporting: Generate detailed reports.
+Customer Management: Handle customer interactions.
